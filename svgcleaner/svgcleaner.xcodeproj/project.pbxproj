@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA606C2AA1CDADDE13500C6D /* Cargo.toml in Sources */ = {isa = PBXBuildFile; fileRef = CA601DFA84BBAEC931A6869A /* Cargo.toml */; settings = {COMPILER_FLAGS = "--bin svgcleaner"; }; };
+		E40CE790294AB92A00773C3C /* Cargo.toml in Sources */ = {isa = PBXBuildFile; fileRef = E40CE78F294AB92A00773C3C /* Cargo.toml */; settings = {COMPILER_FLAGS = "--bin svgcleaner"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -29,8 +29,8 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
-		CA601DFA84BBAEC931A6869A /* Cargo.toml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cargo.toml; path = /Users/kornel/www/ImageOptim/svgcleaner/src/Cargo.toml; sourceTree = "<group>"; };
 		CA6070D14537821B170C4A65 /* svgcleaner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = svgcleaner; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40CE78F294AB92A00773C3C /* Cargo.toml */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cargo.toml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -52,7 +52,7 @@
 		CA609FF7BBC97CAB5F0DDA16 = {
 			isa = PBXGroup;
 			children = (
-				CA601DFA84BBAEC931A6869A /* Cargo.toml */,
+				E40CE78F294AB92A00773C3C /* Cargo.toml */,
 				CA6072EDE0B4AE9E807DCDAE /* Products */,
 				CA604D3AD9CB160FD06055F2 /* Frameworks */,
 			);
@@ -129,7 +129,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# generated with cargo-xcode 1.3.1\nset -eux; cat \"$DERIVED_FILE_DIR/$ARCHS-$EXECUTABLE_NAME.xcfilelist\" | tr '\\n' '\\0' | xargs -0 lipo -create -output \"$BUILT_PRODUCTS_DIR/$EXECUTABLE_PATH\"";
+			shellScript = "# generated with cargo-xcode 1.3.1\nset -eux; cat \"$DERIVED_FILE_DIR/$ARCHS-$EXECUTABLE_NAME.xcfilelist\" | tr '\\n' '\\0' | xargs -0 lipo -create -output \"$BUILT_PRODUCTS_DIR/$EXECUTABLE_PATH\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA606C2AA1CDADDE13500C6D /* Cargo.toml in Sources */,
+				E40CE790294AB92A00773C3C /* Cargo.toml in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

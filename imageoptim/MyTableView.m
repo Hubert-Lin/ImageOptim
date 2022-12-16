@@ -167,7 +167,7 @@
     for (NSInteger row = visibleRows.location; row < visibleRows.location + visibleRows.length; row++) {
         // If it is a "full width" cell, we don't have to go through the rows
         for (NSInteger col = [visibleColIndexes firstIndex]; col != NSNotFound; col = [visibleColIndexes indexGreaterThanIndex:col]) {
-            NSCell *cell = [self preparedCellAtColumn:col row:row];
+            NSCell *cell = (NSCell *)[self viewAtColumn:col row:row makeIfNecessary:NO];
             if ([cell isKindOfClass:[RevealButtonCell class]]) {
                 RevealButtonCell *imagecell = (id)cell;
                 NSDictionary *userInfo = @{@"Col": @(col),
@@ -186,7 +186,8 @@
     NSNumber *col = [userInfo valueForKey:@"Col"];
     if (row && col) {
         NSInteger rowVal = [row integerValue], colVal = [col integerValue];
-        RevealButtonCell *cell = (RevealButtonCell *)[self preparedCellAtColumn:colVal row:rowVal];
+        RevealButtonCell *cell = (RevealButtonCell *)[self viewAtColumn:colVal row:rowVal makeIfNecessary:NO];
+
         assert([cell isKindOfClass:[RevealButtonCell class]]);
 
         if (iMouseCell != cell) {

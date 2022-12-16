@@ -41,8 +41,6 @@
 		5A34D0041AEF6DB300A154E4 /* ImageOptimGPL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A34CFEE1AEF6D9800A154E4 /* ImageOptimGPL.h */; };
 		5A34D0991AEF75CE00A154E4 /* JobQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A34D0971AEF75CE00A154E4 /* JobQueue.h */; };
 		5A34D09A1AEF75CE00A154E4 /* JobQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A34D0981AEF75CE00A154E4 /* JobQueue.m */; };
-		5A5811AA1AD73A7E0001838D /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5811AF1BD73A640001838D /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5A5811AB1AD73A990001838D /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5811AF1BD73A640001838D /* Sparkle.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5A5CD39419662E940096D77F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5CD39319662E940096D77F /* AppKit.framework */; };
 		5A5CD39619662E9A0096D77F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5CD39519662E9A0096D77F /* Foundation.framework */; };
 		5A6242080CA86DC7005942A3 /* PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6242070CA86DC7005942A3 /* PrefsController.m */; };
@@ -61,7 +59,6 @@
 		5A7D24EF13E5BC3100815AAA /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AE54D800CAEE8AC00903DF4 /* defaults.plist */; };
 		5A7FB6D71E2C37DD00481B4A /* SvgoWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7FB6D61E2C37DD00481B4A /* SvgoWorker.h */; };
 		5A7FB6F31E2C37EB00481B4A /* SvgoWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FB6F21E2C37EB00481B4A /* SvgoWorker.m */; };
-		5A7FB7261E2C3E1600481B4A /* svgo.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A7FB7251E2C3E1600481B4A /* svgo.js */; };
 		5A93FD2F1FF1C452005D2F27 /* SvgcleanerWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A93FD051FF1BF1F005D2F27 /* SvgcleanerWorker.m */; };
 		5A99FE84140AE80600BB2F79 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A99FE83140AE80600BB2F79 /* Quartz.framework */; };
 		5AA1B7E9140AC55F00B5707C /* RevealButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A391880140A9B10001B4FD7 /* RevealButtonCell.m */; };
@@ -168,48 +165,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 8DD76FB20486AB0100D96B5E;
 			remoteInfo = gifsicle;
-		};
-		5A58119E1AD73A640001838D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = Sparkle;
-		};
-		5A5811A01AD73A640001838D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 61B5F90209C4CEE200B25A18;
-			remoteInfo = "Sparkle Test App";
-		};
-		5A5811A21AD73A640001838D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 612279D90DB5470200AB99EA;
-			remoteInfo = "Sparkle Unit Tests";
-		};
-		5A5811A41AD73A640001838D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D06E8D00FD68C7C005AE3F6;
-			remoteInfo = BinaryDelta;
-		};
-		5A5811A61AD73A640001838D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55C14BB7136EEF1500649790;
-			remoteInfo = Autoupdate;
-		};
-		5A5811A81AD73A700001838D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = Sparkle;
 		};
 		5A62DB06111CCE9F008848D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -365,13 +320,6 @@
 			remoteGlobalIDString = 5AC64EFD1AF3FDEE0032AA7F;
 			remoteInfo = ImageOptimize;
 		};
-		5ADDF2FE1CE613A800B4AD58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 726B2B5D1C645FC900388755;
-			remoteInfo = "UI Tests";
-		};
 		5F75B47427583B9B0072F27A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5A9D56BC0E7F242C000F129F /* oxipng.xcodeproj */;
@@ -383,36 +331,8 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 5A9D56BC0E7F242C000F129F /* oxipng.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = CA604CC8B9EA3304D77DE321;
+			remoteGlobalIDString = CA6060598D9F1C312260032C;
 			remoteInfo = "oxipng-bin";
-		};
-		5FFC96B7275842290035D0A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5AB8F19F214DA72000A1187F;
-			remoteInfo = generate_keys;
-		};
-		5FFC96B9275842290035D0A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5A5ADED7214EDE4900DF0099;
-			remoteInfo = sign_update;
-		};
-		5FFC96BB275842290035D0A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA4311EA229D651300A5503D;
-			remoteInfo = bsdiff;
-		};
-		5FFC96BD275842290035D0A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA4311A0229D5FBC00A5503D;
-			remoteInfo = ed25519;
 		};
 		5FFC974F275843160035D0A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -427,20 +347,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = CA600A1AC43BC85FF6ADA083;
 			remoteInfo = "svgcleaner-bin";
-		};
-		D047E45F1E7C3CE80036F96B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 722954B41D04ADAF00ECF9CA;
-			remoteInfo = fileop;
-		};
-		D047E4611E7C3CE80036F96B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5AE13FB31E0D9E07000D2C2C;
-			remoteInfo = generate_appcast;
 		};
 		D047E4851E7D7E310036F96B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -477,7 +383,6 @@
 				5ABE15841AE5074900861C6B /* pngout in CopyFiles */,
 				5ABE161E1AE5094000861C6B /* pngquant in CopyFiles */,
 				5FFC9752275843210035D0A2 /* svgcleaner in CopyFiles */,
-				5A7FB7261E2C3E1600481B4A /* svgo.js in CopyFiles */,
 				5ABE162A1AE5099F00861C6B /* zopflipng in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,7 +394,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				5ABE155A1AE5072300861C6B /* ImageOptimGPL.framework in Copy Frameworks */,
-				5A5811AA1AD73A7E0001838D /* Sparkle.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,7 +450,6 @@
 		5A08FDAF1933D635001DA24B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		5A08FE901936982E001DA24B /* ResultsDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsDb.h; sourceTree = "<group>"; };
 		5A08FE911936982E001DA24B /* ResultsDb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsDb.m; sourceTree = "<group>"; };
-		5A09013F0ED8D6AA00F3965B /* appcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
 		5A0A24EF17492D39003264CC /* ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok@2x.png"; sourceTree = "<group>"; };
 		5A0A24F217494254003264CC /* noopt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noopt@2x.png"; sourceTree = "<group>"; };
 		5A0A24F417494254003264CC /* progress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress@2x.png"; sourceTree = "<group>"; };
@@ -590,7 +493,6 @@
 		5A4DC2051028ADB200A9DD55 /* gifsicle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gifsicle.xcodeproj; path = ../gifsicle/gifsicle.xcodeproj; sourceTree = SOURCE_ROOT; };
 		5A4DC2191028AE1800A9DD55 /* GifsicleWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifsicleWorker.h; sourceTree = "<group>"; };
 		5A4DC21A1028AE1800A9DD55 /* GifsicleWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifsicleWorker.m; sourceTree = "<group>"; };
-		5A5811931AD73A630001838D /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sparkle.xcodeproj; path = ../Sparkle/Sparkle.xcodeproj; sourceTree = "<group>"; };
 		5A5C29410CB04A0F00FAF446 /* OxiPngWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OxiPngWorker.h; sourceTree = "<group>"; };
 		5A5C29420CB04A0F00FAF446 /* OxiPngWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OxiPngWorker.m; sourceTree = "<group>"; };
 		5A5CD39319662E940096D77F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -634,7 +536,6 @@
 		5A7F3E1C1EB7421700E94752 /* uk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = uk; path = uk.lproj/Help; sourceTree = "<group>"; };
 		5A7FB6D61E2C37DD00481B4A /* SvgoWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvgoWorker.h; sourceTree = "<group>"; };
 		5A7FB6F21E2C37EB00481B4A /* SvgoWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvgoWorker.m; sourceTree = "<group>"; };
-		5A7FB7251E2C3E1600481B4A /* svgo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = svgo.js; path = ../../svgo/build/svgo.js; sourceTree = "<group>"; };
 		5A8167EC0EA11F9D00962CF2 /* jpegoptim.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jpegoptim.xcodeproj; path = ../jpegoptim/jpegoptim.xcodeproj; sourceTree = "<group>"; };
 		5A89F7DA1B64FFBC00F4C0B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ImageOptim.strings; sourceTree = "<group>"; };
 		5A8A18121416D1D700D62DB7 /* SavingsFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavingsFormatter.h; sourceTree = "<group>"; };
@@ -804,7 +705,6 @@
 				5A5CD39619662E9A0096D77F /* Foundation.framework in Frameworks */,
 				5ABE15591AE5072300861C6B /* ImageOptimGPL.framework in Frameworks */,
 				5A99FE84140AE80600BB2F79 /* Quartz.framework in Frameworks */,
-				5A5811AB1AD73A990001838D /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,7 +771,6 @@
 			children = (
 				5A48B74A1423F3AD00AE15FB /* Makefile */,
 				5A4554F81025EBE900A69944 /* optimal_file_list */,
-				5AF9013A0ED8D68200F3965B /* Sparkle */,
 				5A984D4011238E51007622D7 /* advpng.xcodeproj */,
 				5A27B9C2139B079A0095FC2F /* debug.xcconfig */,
 				5A4DC2051028ADB200A9DD55 /* gifsicle.xcodeproj */,
@@ -983,25 +882,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A5811941AD73A630001838D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5A5811A51AD73A640001838D /* BinaryDelta */,
-				D047E4601E7C3CE80036F96B /* fileop */,
-				D047E4621E7C3CE80036F96B /* generate_appcast */,
-				5FFC96B8275842290035D0A2 /* generate_keys */,
-				5FFC96BA275842290035D0A2 /* sign_update */,
-				5A5811A71AD73A640001838D /* Autoupdate.app */,
-				5FFC96BC275842290035D0A2 /* libbsdiff.a */,
-				5FFC96BE275842290035D0A2 /* libed25519.a */,
-				5A5811A81AD73A640001838D /* Sparkle Test App.app */,
-				5A5811A91AD73A640001838D /* Sparkle Unit Tests.xctest */,
-				5A5811AF1BD73A640001838D /* Sparkle.framework */,
-				5ADDF2FF1CE613A800B4AD58 /* UI Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5A62DB03111CCE9F008848D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1075,7 +955,6 @@
 			children = (
 				5AF71642174AF7C30018D3FE /* pngout */,
 				5ABE15451AE5072300861C6B /* Info.plist */,
-				5A7FB7251E2C3E1600481B4A /* svgo.js */,
 			);
 			name = "Supporting Files";
 			path = Backend;
@@ -1157,15 +1036,6 @@
 			);
 			name = Workers;
 			path = Backend/Workers;
-			sourceTree = "<group>";
-		};
-		5AF9013A0ED8D68200F3965B /* Sparkle */ = {
-			isa = PBXGroup;
-			children = (
-				5A09013F0ED8D6AA00F3965B /* appcast.xml */,
-				5A5811931AD73A630001838D /* Sparkle.xcodeproj */,
-			);
-			name = Sparkle;
 			sourceTree = "<group>";
 		};
 		D047E4821E7D7E310036F96B /* Products */ = {
@@ -1307,7 +1177,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5A5811A91AD73A700001838D /* PBXTargetDependency */,
 				5A453F9B16BE79B6002AFE23 /* PBXTargetDependency */,
 				5ABE15581AE5072300861C6B /* PBXTargetDependency */,
 				5AC64F0B1AF3FDEE0032AA7F /* PBXTargetDependency */,
@@ -1328,7 +1197,6 @@
 				TargetAttributes = {
 					5AC64EFD1AF3FDEE0032AA7F = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 59KZTZA4XR;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
 								enabled = 1;
@@ -1429,10 +1297,6 @@
 					ProjectRef = 5A728F191836C0EE004D0D73 /* pngquant.xcodeproj */;
 				},
 				{
-					ProductGroup = 5A5811941AD73A630001838D /* Products */;
-					ProjectRef = 5A5811931AD73A630001838D /* Sparkle.xcodeproj */;
-				},
-				{
 					ProductGroup = 5A93FB4A1FF1BB2C005D2F27 /* Products */;
 					ProjectRef = 5A93FB491FF1BB2C005D2F27 /* svgcleaner.xcodeproj */;
 				},
@@ -1490,41 +1354,6 @@
 			remoteRef = 5A4DC20C1028ADB200A9DD55 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5A5811A51AD73A640001838D /* BinaryDelta */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = BinaryDelta;
-			remoteRef = 5A5811A41AD73A640001838D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5A5811A71AD73A640001838D /* Autoupdate.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Autoupdate.app;
-			remoteRef = 5A5811A61AD73A640001838D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5A5811A81AD73A640001838D /* Sparkle Test App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Sparkle Test App.app";
-			remoteRef = 5A5811A01AD73A640001838D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5A5811A91AD73A640001838D /* Sparkle Unit Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Sparkle Unit Tests.xctest";
-			remoteRef = 5A5811A21AD73A640001838D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5A5811AF1BD73A640001838D /* Sparkle.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Sparkle.framework;
-			remoteRef = 5A58119E1AD73A640001838D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		5A62DB07111CCE9F008848D0 /* jpegoptim */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
@@ -1567,13 +1396,6 @@
 			remoteRef = 5A9B031A1836E5360043BDAC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5ADDF2FF1CE613A800B4AD58 /* UI Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "UI Tests.xctest";
-			remoteRef = 5ADDF2FE1CE613A800B4AD58 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		5F75B47527583B9B0072F27A /* oxipng */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
@@ -1581,53 +1403,11 @@
 			remoteRef = 5F75B47427583B9B0072F27A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5FFC96B8275842290035D0A2 /* generate_keys */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = generate_keys;
-			remoteRef = 5FFC96B7275842290035D0A2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5FFC96BA275842290035D0A2 /* sign_update */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = sign_update;
-			remoteRef = 5FFC96B9275842290035D0A2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5FFC96BC275842290035D0A2 /* libbsdiff.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libbsdiff.a;
-			remoteRef = 5FFC96BB275842290035D0A2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5FFC96BE275842290035D0A2 /* libed25519.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libed25519.a;
-			remoteRef = 5FFC96BD275842290035D0A2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		5FFC9750275843160035D0A2 /* svgcleaner */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = svgcleaner;
 			remoteRef = 5FFC974F275843160035D0A2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D047E4601E7C3CE80036F96B /* fileop */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = fileop;
-			remoteRef = D047E45F1E7C3CE80036F96B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D047E4621E7C3CE80036F96B /* generate_appcast */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = generate_appcast;
-			remoteRef = D047E4611E7C3CE80036F96B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D047E4861E7D7E310036F96B /* guetzli */ = {
@@ -1834,11 +1614,6 @@
 			isa = PBXTargetDependency;
 			target = 5A453F8D16BE79A7002AFE23 /* downloads */;
 			targetProxy = 5A453F9A16BE79B6002AFE23 /* PBXContainerItemProxy */;
-		};
-		5A5811A91AD73A700001838D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Sparkle;
-			targetProxy = 5A5811A81AD73A700001838D /* PBXContainerItemProxy */;
 		};
 		5A7FB7241E2C3DF800481B4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2366,6 +2141,7 @@
 				CODE_SIGN_ENTITLEMENTS = ImageOptimize/ImageOptimize.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 59KZTZA4XR;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = KFYW472Z6A;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2445,7 +2221,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = ImageOptim.entitlements;
-				DEVELOPMENT_TEAM = 59KZTZA4XR;
+				DEVELOPMENT_TEAM = KFYW472Z6A;
+				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILT_PRODUCTS_DIR)",
@@ -2468,14 +2245,18 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = ImageOptim.entitlements;
-				DEVELOPMENT_TEAM = 59KZTZA4XR;
+				DEVELOPMENT_TEAM = KFYW472Z6A;
+				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILT_PRODUCTS_DIR)",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				INFOPLIST_FILE = Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.pornel.ImageOptim;
 				PRODUCT_NAME = ImageOptim;
 			};

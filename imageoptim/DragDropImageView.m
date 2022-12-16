@@ -50,7 +50,7 @@
     } else {
         [[NSColor clearColor] set];
     }
-    NSRectFillUsingOperation(rect, NSCompositeSourceOver);
+    NSRectFillUsingOperation(rect, NSCompositingOperationSourceOver);
 
     NSColor *gray = [NSColor colorWithDeviceWhite:0 alpha:highlight ? 1.0/4.0 : 1.0/8.0];
     [gray set];
