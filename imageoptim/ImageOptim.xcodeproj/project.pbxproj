@@ -132,12 +132,12 @@
 		E4BDB337295005DD008F464A /* JobProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD569DB21A059A000BC9F82 /* JobProxy.h */; };
 		E4BDB338295005DD008F464A /* PrefsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6242060CA86DC7005942A3 /* PrefsController.h */; };
 		E4BDB339295005DD008F464A /* FilesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE1C4980CA6CDDC000CF636 /* FilesController.h */; };
-		E4BDB33A295005DD008F464A /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A714AAC0CB0196A00C242C0 /* MyTableView.m */; };
 		E4BDB33B295005DD008F464A /* MyTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AACA7BA0CAFD0D2004D45CA /* MyTableView.h */; };
 		E4BDB33E295006B9008F464A /* ImageOptimGPL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABE15421AE5072300861C6B /* ImageOptimGPL.framework */; };
 		E4BDB33F295006B9008F464A /* ImageOptimGPL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABE15421AE5072300861C6B /* ImageOptimGPL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4BDB34529500963008F464A /* ImageOptimHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BDB34329500963008F464A /* ImageOptimHandler.h */; };
 		E4BDB34629500963008F464A /* ImageOptimHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB34429500963008F464A /* ImageOptimHandler.m */; };
+		E4BDB37129503C3D008F464A /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A714AAC0CB0196A00C242C0 /* MyTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1739,7 +1739,7 @@
 				E4BDB32B295005DD008F464A /* FilesController.m in Sources */,
 				E4BDB336295005DD008F464A /* DragDropImageView.m in Sources */,
 				E4BDB335295005DD008F464A /* Transformers.m in Sources */,
-				E4BDB33A295005DD008F464A /* MyTableView.m in Sources */,
+				E4BDB37129503C3D008F464A /* MyTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2105,6 +2105,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -2151,6 +2152,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -2484,6 +2486,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2562,6 +2565,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;

@@ -7,6 +7,8 @@
 #import "Backend/File.h"
 #import "JobProxy.h"
 
+NSString *const kJobProxyStatusDidChangedNotification = @"kJobProxyStatusDidChangedNotification";
+
 @interface JobProxy () {
     NSMutableDictionary *props;
 }
@@ -167,6 +169,9 @@ static id nullToNil(id maybeNull) {
                 [self didChangeValueForKey:@"percentOptimized"];
             }
             NSLog(@"Did change %@ to %@", keyPath, new);
+            [[NSNotificationCenter defaultCenter] postNotificationName:kJobProxyStatusDidChangedNotification
+                                                                object:self
+                                                              userInfo:@{@"keyPath" : keyPath}];
             [self didChangeValueForKey:keyPath];
         }
     };

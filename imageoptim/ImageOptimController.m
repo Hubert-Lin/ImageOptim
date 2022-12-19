@@ -66,6 +66,19 @@ static const char *kIMPreviewPanelContext = "preview";
     }
 
     [NSApp setServicesProvider:self];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(test:)
+                                                 name:kJobProxyStatusDidChangedNotification
+                                               object:nil];
+}
+
+- (void)test:(NSNotification *)noti
+{
+    JobProxy *p = (JobProxy *)noti.object;
+    NSDictionary *userInfo = noti.userInfo;
+    NSString *keyPath = userInfo[@"keyPath"];
+    NSLog(@"HB:: Did change %@ to %@", keyPath, [p valueForKey:keyPath]);
 }
 
 - (void)dealloc {

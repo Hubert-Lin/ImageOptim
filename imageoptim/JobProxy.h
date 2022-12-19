@@ -11,6 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+extern NSString *const kJobProxyStatusDidChangedNotification;
+
 @interface JobProxy : NSObject<NSCopying> {
     Job *job;
 }

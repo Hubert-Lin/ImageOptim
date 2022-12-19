@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>LossyEnabled</key>
-	<false/>
+	<true/>
 	<key>JpegOptimMaxQuality</key>
 	<integer>80</integer>
 	<key>PngMinQuality</key>
-	<integer>80</integer>
+	<integer>70</integer>
 	<key>AdvPngEnabled</key>
 	<true/>
 	<key>AdvPngLevel</key>
