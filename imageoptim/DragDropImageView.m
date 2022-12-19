@@ -30,9 +30,9 @@
     return NSDragOperationCopy;
 }
 
-- (NSDragOperation)draggingSourceOperationMaskForLocal:(BOOL)flag {
-    return NSDragOperationCopy; //send data as copy operation
-}
+//- (NSDragOperation)draggingSourceOperationMaskForLocal:(BOOL)flag {
+//    return NSDragOperationCopy; //send data as copy operation
+//}
 
 - (void)draggingExited:(id<NSDraggingInfo>)sender {
     highlight = NO; //remove highlight of the drop zone

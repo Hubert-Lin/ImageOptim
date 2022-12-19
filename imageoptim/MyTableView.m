@@ -215,14 +215,14 @@
 
 /* Since NSTableView/NSOutineView uses the same cell to "stamp" out each row, we need to send the mouseEntered/mouseExited events each time it is drawn. The easy hook for this is the preparedCell method.
  */
-- (NSCell *)preparedCellAtColumn:(NSInteger)column row:(NSInteger)row {
-    // We check if the selectedCell is nil or not -- the selectedCell is a cell that is currently being edited or tracked. We don't want to return our override if we are in that state.
-    if (iMouseCell && [self selectedCell] == nil && (row == iMouseRow) && (column == iMouseCol)) {
-        return iMouseCell;
-    } else {
-        return [super preparedCellAtColumn:column row:row];
-    }
-}
+//- (NSCell *)preparedCellAtColumn:(NSInteger)column row:(NSInteger)row {
+//    // We check if the selectedCell is nil or not -- the selectedCell is a cell that is currently being edited or tracked. We don't want to return our override if we are in that state.
+//    if (iMouseCell && [self selectedCell] == nil && (row == iMouseRow) && (column == iMouseCol)) {
+//        return iMouseCell;
+//    } else {
+//        return [super preparedCellAtColumn:column row:row];
+//    }
+//}
 
 /* In order for the cell to properly update itself with an "updateCell:" call, we must handle the "mouseCell" as a special case
  */
@@ -236,11 +236,11 @@
 
 
 
-- (NSDragOperation)draggingSourceOperationMaskForLocal:(BOOL)isLocal {
-    if (isLocal) return NSDragOperationMove;
-
-    return NSDragOperationCopy | NSDragOperationGeneric;
-}
+//- (NSDragOperation)draggingSourceOperationMaskForLocal:(BOOL)isLocal {
+//    if (isLocal) return NSDragOperationMove;
+//
+//    return NSDragOperationCopy | NSDragOperationGeneric;
+//}
 
 -(void) quickLook {
     if ([QLPreviewPanel sharedPreviewPanelExists] && [[QLPreviewPanel sharedPreviewPanel] isVisible]) {
